@@ -27,11 +27,13 @@ header h1{
 /* class selectors*/
 /*----------------*/
 
-.row{
-
+.row::after{
+    content: "";
+    clear:both;
+    display: table;
 }
 .col-1{
-
+    
 }
 .col-2{
 
@@ -45,5 +47,5 @@ header h1{
 }
 
 #page-title{
-    
+
 }
