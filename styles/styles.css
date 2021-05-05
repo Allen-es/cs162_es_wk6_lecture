@@ -5,5 +5,12 @@ html{
 header{
     height:200px;
     background-color: cadetblue;
+    width: 100%;
+}
 
+header h1{
+   /* width: 100%; TODO: revist site to fit text to container
+    width: 25.5vw;
+    text-align: center;
+    */
 }
