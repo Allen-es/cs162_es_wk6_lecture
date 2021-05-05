@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+/*----------------*/
+/* tage selectors*/
+/*----------------*/
 html{
     font-family: sans-serif;
 }
@@ -19,4 +22,28 @@ header h1{
     */
     text-align: center;
     padding: 15px;
+}
+/*----------------*/
+/* class selectors*/
+/*----------------*/
+
+.row{
+
+}
+.col-1{
+
+}
+.col-2{
+
+}
+.col-3{
+
+
+}
+.side-info{
+
+}
+
+#page-title{
+    
 }
