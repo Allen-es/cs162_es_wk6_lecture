@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+
 }
 
 /*----------------*/
@@ -40,8 +41,14 @@ header h1{
 }
 .col-3{
     width: 20%;
-
 }
+
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+}
+
+
 .side-info{
 
 }
